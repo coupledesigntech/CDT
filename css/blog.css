@@ -1,0 +1,33 @@
+#productos h3, h4{
+    text-align: center;
+    
+}
+#productos .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.galeria{
+    width: 90%;
+    margin:auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria li{
+    margin: 12px;
+}
+
+.galeria img{
+    width: 150px;
+    height: 100px;
+}
